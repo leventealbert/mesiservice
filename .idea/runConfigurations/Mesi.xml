@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Mesi" type="GoAppEngineRunConfiguration" factoryName="Go App Engine">
+    <module name="mesi" />
+    <working_directory value="$PROJECT_DIR$/" />
+    <parameters value="dispatch.yaml backend/backend.yaml frontent/frontend.yaml" />
+    <method />
+  </configuration>
+</component>

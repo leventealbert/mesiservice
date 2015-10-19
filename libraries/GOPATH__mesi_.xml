@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;mesi&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/gocode/src/github.com" />
+    </CLASSES>
+    <SOURCES />
+    <excluded>
+      <root url="file://$USER_HOME$/gocode/src/github.com/mattn/go-sqlite3/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$USER_HOME$/gocode/src/github.com/pmylund/sortutil/.git" />
+      <root url="file://$USER_HOME$/gocode/src/github.com/alexjlockwood/gcm/.git" />
+      <root url="file://$USER_HOME$/gocode/src/github.com/mattn/go-sqlite3/_example" />
+    </excluded>
+  </library>
+</component>

@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+/*  General CSS*/
+
+h1, h2, h3, h4, h5 ,h6{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+h1              { font-size: 2em;}
+h2              { font-size: 1.5em;}
+h3              { font-size: 1.17em;}
+h5              { font-size: .83em;}
+h6              { font-size: .75em;}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*  header  */
+header{
+    width: 100%;
+    background: #ffffff;
+    overflow: auto;
+}
+
+header .logo{
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    width: 150px;
+}
+
+header nav{
+    float: right;
+    margin: 25px 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #5e5d5d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+header nav ul li:last-child{
+    margin-right: 0;
+}
+
+header nav ul li a:hover{
+    color: #ff4242;
+
+    transition:all .2s linear;
+    -o-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+}
+
+
+.content-slide {
+    width: 800px;
+    margin: auto;
+}
+
+.content-slide #video {
+    background: url("../img/home-screen.png") no-repeat;
+    width: 454px;
+    height: 585px;
+    padding-top: 58px;
+    display: inline-block;
+}
+
+.content-slide #video > div {
+    margin-left: 40px;
+}
+
+.content-slide .headline {
+    display: inline-block;
+    width: 454px;
+    height: 585px;
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    color: #231f20;
+}
+
+section.container .content-slide .headline span {
+    font-size: 50px;
+}
+
+
+section.download{
+    min-height: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+section.download a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #673ab7;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+}
+
+
+
+section article div{
+    display: inline-block;
+    width: 49%;
+    padding: 15px 7%;
+}
+
+section article img{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+section article div h3{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #231f20;
+    color: #fff;
+    padding: 40px 0 20px 0;
+    margin-top: 15px;
+    width: 100%;
+}
+
+footer div.copyright{
+    text-align: center;
+}
+
+footer div.copyright p{
+    color: #8d8b8b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+footer .copyright .logo img{
+    margin: 30px 0 5px 0;
+}
+
+footer .container{
+    text-align: right;
+}
+
+footer .container ul li{
+    list-style: none;
+    display: inline;
+}
+
+footer .container ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-out;
+    padding: 5px;
+}
+
+footer .container ul li a .fa{
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    padding: 7px;
+    text-align: center;
+    width: 36px;
+}
+
+footer .container ul li a span{
+    display: none;
+}
+
+footer .container ul li a:hover .fa-github{
+    background-color: #829aa8;
+}
+
+footer .container ul li a:hover .fa-google-plus{
+    background-color: #d5422d;
+}
+
+footer .container ul li a:hover .fa-twitter{
+    background-color: #5ea9dd;
+}
+
+footer .container ul li a:hover .fa-facebook{
+    background-color: #45619d;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

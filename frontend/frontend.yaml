@@ -1,0 +1,13 @@
+application: mesi-project
+module: frontend
+version: 1
+api_version: 1
+runtime: python27
+threadsafe: yes
+
+handlers:
+- url: /
+  static_files: static/home.html
+  upload: static/home.html
+- url: /
+  static_dir: static
